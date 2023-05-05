@@ -1,0 +1,101 @@
+.container{
+    margin: 6rem;
+    max-width: 40rem;
+}
+.task-box_image{
+    width: 10rem;
+    margin-right:0;
+    border-radius: 10px;
+    opacity: 75%;
+    margin-left: 30rem;
+}
+.tasks-box_title, .list-box_title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.tasks-box_field{
+    display:flex;
+    justify-content: space-between;
+}
+.tasks-box_field-input{
+    width: 30rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+	height: 42px;
+	font-size: 1rem;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom-color: #F18230;
+}
+.tasks-box_field-input:focus {
+    border: none;
+    outline-color: #F18230;
+}
+
+.tasks-box_field-button, .list-box_field-button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 0 25px;    
+	height: 42px;
+	line-height: 38px;    
+	border: 1px solid #F18230;
+	border-radius: 15px;    
+	font-size: 1rem;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F18230;
+	text-align: center;
+	font-weight: 600;
+}
+
+.tasks-box_field-button:hover {
+	background-color: #fba768
+}
+.tasks-box_field-button:active {
+	background-color: #c17237 !important;
+}
+.list-box_field-button:hover {
+	background-color: #fba768
+}
+.list-box_field-button:active {
+	background-color: #c17237 !important;
+}
+.list-box_field-button:disabled {
+	opacity: 0.65;
+	pointer-events: none;
+}
+.list-box_field-button{
+    display: block;
+    margin: auto;
+}
+.list-box_field-tasks{
+    max-height: 100%;
+    width: 100%;
+    min-height: 10rem;
+}
+.list-box_field-tasks{
+    text-align: center;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.list_task{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color:black;
+	height: 42px;
+    width: 40rem;
+	font-size: 1.3rem;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid#c17237 ;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.list_checkbox{
+    transform: scale(2);
+    margin-bottom: 12px;
+}
+

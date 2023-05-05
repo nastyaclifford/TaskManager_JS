@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <div class="tasks-box">
+          <img
+            src="/JS_Week15/assets/images/plan.jpg"
+            alt="plan"
+            class="task-box_image"
+          />
+          <p class="tasks-box_title">Добавить задачу</p>
+          <div class="tasks-box_field">
+            <input
+              type="text"
+              class="tasks-box_field-input"
+              placeholder="Введите задачу"
+            />
+            <button class="tasks-box_field-button">Добавить</button>
+          </div>
+        </div>
+        <div class="list-box">
+          <p class="list-box_title">Список задач</p>
+          <div class="list-box_field">
+            <div class="list-box_field-tasks">Нет задач</div>
+            <button class="list-box_field-button" disabled>
+              Очистить список задач
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
